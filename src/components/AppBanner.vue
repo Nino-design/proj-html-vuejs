@@ -16,10 +16,10 @@
           Learning is a life-long journey that in fact we never find <br />
           the terminate stop. Stop searching, enjoy the process.
         </p>
-        <button type="button" class="btn btn-primary">
+        <button type="button" class="btn btn-primary button-green">
           <i class="fa-solid fa-download"></i> Download free guide
         </button>
-        <div class="question color-light">
+        <div class="question font-small-grey">
           <span>Have a question?</span>
           <span class="color-green-1"
             >Get Free Sample <i class="fa-solid fa-arrow-right-long"></i
@@ -76,17 +76,10 @@ export default {
     border-radius: 100%;
   }
 }
-button {
-  background-color: #25ab94;
-  color: white;
-}
-.question {
-  font-size: 0.7rem;
 
   i {
     margin-top: 1rem;
   }
-}
 
 .clients img{
   width: 45%;

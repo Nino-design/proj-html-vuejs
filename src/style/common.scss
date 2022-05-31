@@ -3,9 +3,6 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 /*COMMON*/
-.color-light{
-    color: #9ea4a5;
-}
 
 .color-green-1{
     color: #25ab94;
@@ -14,3 +11,13 @@
 ul li{
     list-style-type: none;
 }
+
+.button-green {
+    background-color: #25ab94;
+    color: white;
+  }
+
+  .font-small-grey{ 
+      color: #9ea4a5;
+      font-size: 0.7rem;
+  }
