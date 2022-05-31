@@ -1,13 +1,19 @@
 <template>
-  <div>jgcgcgjv</div>
+  <div>
+  <AppBanner/>
+  </div>
 </template>
 
 <script>
+import AppBanner from './AppBanner.vue';
 export default {
 name:'AppMain',
+components: {
+  AppBanner,
+}
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
