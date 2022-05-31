@@ -1,9 +1,9 @@
 <template>
-  <section class="courses mt-5 mb-5">
+  <section class="courses mt-5 mb-5 pb-5">
     <div class="container">
       <div class="row text-center">
         <div class="col-12">
-          <p class="color-light mt-5">Stimulated to learn?</p>
+          <p class="mt-5 font-big-grey">Stimulated to learn?</p>
           <h2 class="mb-5">Featured Online Courses</h2>
         </div>
         <div class="course-type col-6">
