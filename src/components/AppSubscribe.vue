@@ -29,8 +29,8 @@ export default {
 input {
   background-color: #f3e8ef;
   border: none;
-  width: 200px;
-  padding: 1.2em 0.6em;
+  width: 300px;
+  padding: 1em 0.6em;
 }
 .start {
   background: url(../assets/Img/maxcoach-shape-01.png) left top 30% no-repeat,
