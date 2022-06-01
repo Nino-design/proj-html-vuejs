@@ -5,6 +5,8 @@
   <AppTutoring/>
   <AppReviews/>
   <AppNumbers/>
+  <AppBestBlogs/>
+  <AppSubscribe/>
   </div>
 </template>
 
@@ -14,14 +16,18 @@ import AppCourses from './AppCourses.vue';
 import AppTutoring from './AppTutoring.vue';
 import AppReviews from './AppReviews.vue';
 import AppNumbers from './AppNumbers.vue';
+import AppBestBlogs from './AppBestBlogs.vue';
+import AppSubscribe from './AppSubscribe.vue';
 export default {
 name:'AppMain',
 components: {
-  AppBanner,
-  AppCourses,
-  AppTutoring,
-  AppReviews,
-  AppNumbers,
+    AppBanner,
+    AppCourses,
+    AppTutoring,
+    AppReviews,
+    AppNumbers,
+    AppBestBlogs,
+    AppSubscribe,
 }
 }
 </script>

@@ -34,7 +34,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.numbers{
+  background-color: #f6f3f5;
+}
 .card{
     width: calc(100% / 4 - 5px);
     margin: 0 2.5px;

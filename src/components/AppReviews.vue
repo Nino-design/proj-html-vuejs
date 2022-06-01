@@ -1,12 +1,12 @@
 <template>
-  <section class="reviews mb-5 pb-5">
+  <section class="reviews pb-5">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <p class="font-big-grey color-light mt-5 text-center">
             great words about maxcoach
           </p>
-          <h2 class="mb-5 text-center">
+         <h2 class="mb-5 text-center">
             Our <span class="color-green-1">top learners'</span>verbatim
           </h2>
         </div>
@@ -69,7 +69,7 @@
       <i class="fa-solid fa-circle small"></i>
       <i class="fa-solid fa-circle small"></i>
     </div>
-    <div class="start container text-center pt-5 pb-5 mt-5 mb-5">
+    <div class="start container text-center pt-5 pb-5 mt-5">
       <p class="fs-4 mb-0">
         Start today for getting
         <span class="color-green-1 fs-4"> Online Certification</span>
