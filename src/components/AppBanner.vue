@@ -16,7 +16,7 @@
           Learning is a life-long journey that in fact we never find <br />
           the terminate stop. Stop searching, enjoy the process.
         </p>
-        <button type="button" class="btn btn-primary button-green">
+        <button type="button" class="btn btn-primary button-green btn-sm">
           <i class="fa-solid fa-download"></i> Download free guide
         </button>
         <div class="question font-small-grey">
