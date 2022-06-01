@@ -10,7 +10,7 @@
           <img src="../assets/Img/course-02-480x298.jpg" alt="" />
           <div class="course-details">
             <p class="color-green-1 fw-bold">$40.00</p>
-            <p class="fw-bold">Learning to write as a professional writer</p>
+            <p class="fw-bold change-color">Learning to write as a professional writer</p>
             <span class="font-small-grey"><i class="fa-solid fa-file-lines"></i>20 Lessons</span>
             <span class="font-small-grey"><i class="fa-solid fa-user"></i>50 Students</span>
           </div>
@@ -19,7 +19,7 @@
           <img src="../assets/Img/mobile-bg.jpg" alt="" />
           <div class="course-details">
             <p class="color-green-1 fw-bold">Free</p>
-            <p class="fw-bold">Customer-centric-Info-Tech Strategies</p>
+            <p class="fw-bold change-color">Customer-centric-Info-Tech Strategies</p>
             <span class="font-small-grey"><i class="fa-solid fa-file-lines"></i>24 Lessons</span>
             <span class="font-small-grey"><i class="fa-solid fa-user"></i>769 Students</span>
           </div>
@@ -28,7 +28,7 @@
           <img src="../assets/Img/stock-full-hd-04-480x298.jpg" alt="" />
           <div class="course-details">
             <p class="color-green-1 fw-bold">$19.00</p>
-            <p class="fw-bold">Open Programming Courses for Everyone: Python</p>
+            <p class="fw-bold change-color">Open Programming Courses for Everyone: Python</p>
             <span class="font-small-grey"><i class="fa-solid fa-file-lines"></i>17 Lessons</span>
             <span class="font-small-grey"><i class="fa-solid fa-user"></i>62 Students</span>
           </div>
@@ -37,7 +37,7 @@
           <img src="../assets/Img/stock-full-hd-06-480x298.jpg" alt="" />
           <div class="course-details">
             <p class="color-green-1 fw-bold">$26.00</p>
-            <p class="fw-bold">Academic Listening and Note-taking</p>
+            <p class="fw-bold change-color">Academic Listening and Note-taking</p>
             <span class="font-small-grey"><i class="fa-solid fa-file-lines"></i>14 Lessons</span>
             <span class="font-small-grey"><i class="fa-solid fa-user"></i>67 Students</span>
           </div>
@@ -46,7 +46,7 @@
           <img src="../assets/Img/course-featured-image-01-480x298.jpg" alt="" />
           <div class="course-details">
             <p class="color-green-1 fw-bold">$39.00</p>
-            <p class="fw-bold">Master jQuery in a Short Period Time</p>
+            <p class="fw-bold change-color">Master jQuery in a Short Period Time</p>
             <span class="font-small-grey"><i class="fa-solid fa-file-lines"></i>6 Lessons</span>
             <span class="font-small-grey"><i class="fa-solid fa-user"></i>51 Students</span>
           </div>
@@ -55,7 +55,7 @@
           <img src="../assets/Img/stock-full-hd-05-480x298.jpg" alt="" />
           <div class="course-details">
             <p class="color-green-1 fw-bold">$59.00</p>
-            <p class="fw-bold">Introduction to Javascript for Beginners</p>
+            <p class="fw-bold change-color">Introduction to Javascript for Beginners</p>
             <span class="font-small-grey"><i class="fa-solid fa-file-lines"></i>14 Lessons</span>
             <span class="font-small-grey"><i class="fa-solid fa-user"></i>76 Students</span>
           </div>
@@ -95,6 +95,10 @@ export default {
       text-align: start;
       left: 220px;
       top: 20px;
+      
+     .change-color:hover{ 
+       color: #25ab94;
+     }
 
       i {
           margin:0 0.5rem;
