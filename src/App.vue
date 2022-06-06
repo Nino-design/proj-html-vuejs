@@ -2,7 +2,7 @@
   <div id="app">
   <AppHeader/>
   <AppMain/>
-  <AppFooter/>
+  <AppFooter :icons1="footerIcons" :icons2="footerIcons2"/>
 
   </div>
 </template>
@@ -19,7 +19,46 @@ export default {
     AppMain,
     AppFooter,
     AppHeader
-}
+},
+data: function () {
+    return {
+       footerIcons: [
+        {
+          text: "Start here",
+        },
+        {
+          text: "Blog",
+        },
+        {
+          text: "About us",
+        },
+        {
+          text: "Success story",
+        },
+        {
+          text: "Courses",
+        },
+        {
+          text: "Contact us",
+        },
+      ],
+      footerIcons2: [
+        {
+          text: "Merbership",
+        },
+        {
+          text: "Purchase guide",
+        },
+         {
+          text: "Privacy policy",
+        },
+         {
+          text: "Terms of services",
+        },
+      ],
+    };
+  },
+
 }
 </script>
 
